@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: #333;
+            font-size: 20px;
+            font-family: Arial;
+         }
+        .box{
+            border: solid black 1px;
+            width: 400px;
+            padding-left: 10px;
+            background: rgba(164,160,149,0.72);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <form method="post" action="">
+        <p>
+            Введите множество чисел:
+            <input type="text" size="40" name="some_nums_form" placeholder="some text">
+        </p>
+        <p>
+	    <input type="submit">
+	    </p>
+    </form>
+
+    <p>{{ result }}</p>
+    </div>
+</body>
+</html>
